@@ -49,7 +49,7 @@ export function UI() {
                         render={({ field }) => (
                             <FormItem className="flex-1">
                                 <FormControl>
-                                    <Textarea placeholder="Ask The Cube Anything" {...field} />
+                                    <Input placeholder="Ask The Cube Anything" {...field} />
 
                                 </FormControl>
 

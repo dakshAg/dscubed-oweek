@@ -23,7 +23,7 @@ const FormSchema = z.object({
 
 
 export function UI() {
-    const [message, setMessage] = useState<string>("The Cube is thinking")
+    const [message, setMessage] = useState<string>("The Cube is Existing")
     const form = useForm<z.infer<typeof FormSchema>>({
         resolver: zodResolver(FormSchema)
     })

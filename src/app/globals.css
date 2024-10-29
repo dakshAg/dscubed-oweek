@@ -67,3 +67,37 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Floating image animations */
+.floating-image {
+  position: absolute;
+ 
+  animation: float 10s infinite ease-in-out;
+}
+
+.float1 {
+  top: 10%;
+  left: 20%;
+  animation-delay: 0s;
+}
+
+.float2 {
+  top: 40%;
+  left: 70%;
+  animation-delay: 2s;
+}
+
+.float3 {
+  top: 80%;
+  left: 30%;
+  animation-delay: 4s;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-100px) rotate(-90deg);
+  }
+}

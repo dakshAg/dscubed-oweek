@@ -96,12 +96,6 @@ const DiwaliLuckyDraw = () => {
         </ul>
       </section>
 
-      <Confetti
-        width={window.innerWidth}
-        height={window.innerHeight}
-        recycle={isSpinning}
-      />
-
       <footer className="mt-12 text-orange-900">
         <p className="text-xl font-medium">
           ✨ Wishing you a joyful Diwali! ✨
